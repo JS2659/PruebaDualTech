@@ -117,7 +117,7 @@ namespace PruebaDualTech.Services
                 response.success = true;
                 response.message = "Cliente Actualizado Exitosamente";
                 response.errors = new string[0];
-                response.Data = cliente;
+                response.Data = dbCliente;
                 return response;
             }
             catch (Exception ex)
