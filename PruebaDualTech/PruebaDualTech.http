@@ -1,0 +1,6 @@
+@PruebaDualTech_HostAddress = http://localhost:5227
+
+GET {{PruebaDualTech_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
