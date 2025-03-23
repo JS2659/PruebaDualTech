@@ -10,7 +10,7 @@ namespace PruebaDualTech.Dtos.Orden
         public decimal Subtotal { get; set; }
         public decimal Total { get; set; }
         public long ClienteId { get; set; }
-        public DetalleOrdenDto[] Detalle {  get; set; } = new DetalleOrdenDto[0];
+        public List<DetalleOrdenDto> Detalle {  get; set; } = new List<DetalleOrdenDto>();
 
     }
 }

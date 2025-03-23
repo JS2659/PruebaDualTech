@@ -17,8 +17,9 @@ namespace PruebaDualTech.Entities
 
         [Column(TypeName = "decimal(10,4)")]
         public decimal Total { get; set; }
-        public required Orden Orden { get; set; }
-        public required Producto Producto { get; set; }
+
+        public required long OrdenId { get; set; }
+        public required long ProductoId { get; set; }
 
     }
 }
